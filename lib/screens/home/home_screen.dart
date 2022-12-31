@@ -41,9 +41,7 @@ class HomeScreen extends StatelessWidget {
           body: ListView(
             children: const [
               SizedBox(height: 300, child: MyCarousel()),
-              Expanded(
-                child: PhotoGrid(),
-              ),
+              PhotoGrid(),
             ],
           )),
     );
